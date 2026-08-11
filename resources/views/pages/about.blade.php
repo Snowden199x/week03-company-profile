@@ -126,19 +126,19 @@
             <h2 class="text-3xl font-bold text-gray-900">The people behind Craftbyte</h2>
         </div>
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div class="bg-white rounded-2xl p-6 text-center shadow-sm">
+            <div class="bg-gradient-to-b from-stone-100 to-stone-200 rounded-2xl p-6 text-center shadow-md border border-stone-200">
                 <img src="{{ asset('images/team/patrick.png') }}" alt="Patrick Goco" class="w-20 h-20 rounded-full mx-auto mb-4 object-cover">
                 <h3 class="font-semibold text-gray-900">Patrick Goco</h3>
                 <p class="text-indigo-600 text-sm mb-2">Founder & Lead Developer</p>
                 <p class="text-gray-500 text-sm">Handles full-stack development and client architecture decisions.</p>
             </div>
-            <div class="bg-white rounded-2xl p-6 text-center shadow-sm">
+            <div class="bg-gradient-to-b from-stone-100 to-stone-200 rounded-2xl p-6 text-center shadow-md border border-stone-200">
                 <img src="{{ asset('images/team/dianna.jpg') }}" alt="Dianna Ramillo" class="w-20 h-20 rounded-full mx-auto mb-4 object-cover">
                 <h3 class="font-semibold text-gray-900">Dianna Ramillo</h3>
                 <p class="text-indigo-600 text-sm mb-2">UI/UX Designer</p>
                 <p class="text-gray-500 text-sm">Leads design direction and user experience research.</p>
             </div>
-            <div class="bg-white rounded-2xl p-6 text-center shadow-sm">
+            <div class="bg-gradient-to-b from-stone-100 to-stone-200 rounded-2xl p-6 text-center shadow-md border border-stone-200">
                 <img src="{{ asset('images/team/zamuelle.png') }}" alt="Zamuelle Lorenzo" class="w-20 h-20 rounded-full mx-auto mb-4 object-cover">
                 <h3 class="font-semibold text-gray-900">Zamuelle Lorenzo</h3>
                 <p class="text-indigo-600 text-sm mb-2">Project Manager</p>
