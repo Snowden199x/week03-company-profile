@@ -47,21 +47,7 @@ The advantages become obvious once you've worked on a messier codebase. Changes 
 
 Here's how a request flows through this application:
 
-```
-Browser
-   │
-   ▼
-Route (routes/web.php)
-   │
-   ▼
-Controller (CompanyController)
-   │
-   ▼
-Blade View (resources/views/pages/*.blade.php)
-   │
-   ▼
-Response back to Browser
-```
+![Architecture Diagram](documentation/architecture_diagram.png)
 ## Laravel Routing
 
 Routing is how Laravel decides what code should run when someone visits a specific URL. Instead of a browser directly pointing to a PHP file the way old-school PHP sites worked, every request in Laravel first passes through `routes/web.php`, where it gets matched against a defined path.
